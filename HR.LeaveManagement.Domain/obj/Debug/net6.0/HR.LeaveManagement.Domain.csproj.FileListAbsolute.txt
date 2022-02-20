@@ -1,0 +1,12 @@
+/home/manuel/sources/HR.LeaveManagement/HR.LeaveManagement.Domain/bin/Debug/net6.0/HR.LeaveManagement.Domain.deps.json
+/home/manuel/sources/HR.LeaveManagement/HR.LeaveManagement.Domain/bin/Debug/net6.0/HR.LeaveManagement.Domain.dll
+/home/manuel/sources/HR.LeaveManagement/HR.LeaveManagement.Domain/bin/Debug/net6.0/ref/HR.LeaveManagement.Domain.dll
+/home/manuel/sources/HR.LeaveManagement/HR.LeaveManagement.Domain/bin/Debug/net6.0/HR.LeaveManagement.Domain.pdb
+/home/manuel/sources/HR.LeaveManagement/HR.LeaveManagement.Domain/obj/Debug/net6.0/HR.LeaveManagement.Domain.csproj.AssemblyReference.cache
+/home/manuel/sources/HR.LeaveManagement/HR.LeaveManagement.Domain/obj/Debug/net6.0/HR.LeaveManagement.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/home/manuel/sources/HR.LeaveManagement/HR.LeaveManagement.Domain/obj/Debug/net6.0/HR.LeaveManagement.Domain.AssemblyInfoInputs.cache
+/home/manuel/sources/HR.LeaveManagement/HR.LeaveManagement.Domain/obj/Debug/net6.0/HR.LeaveManagement.Domain.AssemblyInfo.cs
+/home/manuel/sources/HR.LeaveManagement/HR.LeaveManagement.Domain/obj/Debug/net6.0/HR.LeaveManagement.Domain.csproj.CoreCompileInputs.cache
+/home/manuel/sources/HR.LeaveManagement/HR.LeaveManagement.Domain/obj/Debug/net6.0/HR.LeaveManagement.Domain.dll
+/home/manuel/sources/HR.LeaveManagement/HR.LeaveManagement.Domain/obj/Debug/net6.0/ref/HR.LeaveManagement.Domain.dll
+/home/manuel/sources/HR.LeaveManagement/HR.LeaveManagement.Domain/obj/Debug/net6.0/HR.LeaveManagement.Domain.pdb
