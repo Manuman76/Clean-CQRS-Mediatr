@@ -1,3 +1,4 @@
+using HR.LeaveManagement.Application.Contracts.Persistence;
 using HR.LeaveManagement.Application.DTOs;
 using HR.LeaveManagement.Domain;
 

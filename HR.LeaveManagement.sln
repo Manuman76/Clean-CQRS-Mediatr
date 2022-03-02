@@ -16,6 +16,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HR.LeaveManagement.Domain",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HR.LeaveManagement.Application", "HR.LeaveManagement.Application\HR.LeaveManagement.Application.csproj", "{EBFA2DC3-6FC8-46A1-A5F0-CD74637C960F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HR.LeaveManagement.Infrastructure", "HR.LeaveManagement.Infrastructure\HR.LeaveManagement.Infrastructure.csproj", "{FF565659-08C3-4ECE-B2DC-4350DCDD07E9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HR.LeaveManagement.Persistence", "HR.LeaveManagement.Persistence\HR.LeaveManagement.Persistence.csproj", "{CB2BEE87-7151-4B11-8DEE-50696A2AFD9A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HR.LeaveManagement.Api", "HR.LeaveManagement.Api\HR.LeaveManagement.Api.csproj", "{1A5D6862-3A32-49EF-9BF0-6EC85555AA31}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -28,6 +34,9 @@ Global
 		{86724682-141B-4EC6-B3BE-199060A979B0} = {3C05B067-F49C-401F-80D2-34DA268CD350}
 		{E99405C7-DA76-4684-B34E-5646B6D1230D} = {046F9280-3ACC-4A2A-9E64-99DFE21A171C}
 		{EBFA2DC3-6FC8-46A1-A5F0-CD74637C960F} = {046F9280-3ACC-4A2A-9E64-99DFE21A171C}
+		{FF565659-08C3-4ECE-B2DC-4350DCDD07E9} = {D8A60EEF-B9B4-4284-9C51-89352C4CA9B1}
+		{CB2BEE87-7151-4B11-8DEE-50696A2AFD9A} = {D8A60EEF-B9B4-4284-9C51-89352C4CA9B1}
+		{1A5D6862-3A32-49EF-9BF0-6EC85555AA31} = {9912F663-3C02-47E4-99E1-8BBE972F967E}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{E99405C7-DA76-4684-B34E-5646B6D1230D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -38,5 +47,17 @@ Global
 		{EBFA2DC3-6FC8-46A1-A5F0-CD74637C960F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EBFA2DC3-6FC8-46A1-A5F0-CD74637C960F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EBFA2DC3-6FC8-46A1-A5F0-CD74637C960F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF565659-08C3-4ECE-B2DC-4350DCDD07E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF565659-08C3-4ECE-B2DC-4350DCDD07E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF565659-08C3-4ECE-B2DC-4350DCDD07E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF565659-08C3-4ECE-B2DC-4350DCDD07E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CB2BEE87-7151-4B11-8DEE-50696A2AFD9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB2BEE87-7151-4B11-8DEE-50696A2AFD9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CB2BEE87-7151-4B11-8DEE-50696A2AFD9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CB2BEE87-7151-4B11-8DEE-50696A2AFD9A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A5D6862-3A32-49EF-9BF0-6EC85555AA31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A5D6862-3A32-49EF-9BF0-6EC85555AA31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A5D6862-3A32-49EF-9BF0-6EC85555AA31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A5D6862-3A32-49EF-9BF0-6EC85555AA31}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
