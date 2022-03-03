@@ -2,7 +2,7 @@ using HR.LeaveManagement.Domain.Common;
 
 namespace HR.LeaveManagement.Domain;
 
-public class LeaveAllocation: BaseDomainEntitiy
+public class LeaveAllocation: BaseDomainEntity
 {
     public int NumberOfDays { get; set; }
     public LeaveType LeaveType { get; set; } = null!;

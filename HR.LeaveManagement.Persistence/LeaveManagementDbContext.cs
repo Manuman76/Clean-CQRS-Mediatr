@@ -19,7 +19,7 @@ public class LeaveManagementDbContext: DbContext
 
     public override Task<int> SaveChangesAsync(CancellationToken cancellationToken = new CancellationToken())
     {
-        foreach (var entry in ChangeTracker.Entries<BaseDomainEntitiy>())
+        foreach (var entry in ChangeTracker.Entries<BaseDomainEntity>())
         {
             entry.Entity.LastModifiedDate = DateTime.Now;
             if (entry.State == EntityState.Added)
