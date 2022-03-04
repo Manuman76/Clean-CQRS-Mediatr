@@ -10325,19 +10325,19 @@
     ]
   },
   "packageFolders": {
-    "/home/manuel/.nuget/packages/": {}
+    "C:\\Users\\Manuel\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/manuel/sources/HR.LeaveManagement/HR.LeaveManagement.Api/HR.LeaveManagement.Api.csproj",
+      "projectUniqueName": "C:\\Users\\Manuel\\sources\\Clean-CQRS-Mediatr\\HR.LeaveManagement.Api\\HR.LeaveManagement.Api.csproj",
       "projectName": "HR.LeaveManagement.Api",
-      "projectPath": "/home/manuel/sources/HR.LeaveManagement/HR.LeaveManagement.Api/HR.LeaveManagement.Api.csproj",
-      "packagesPath": "/home/manuel/.nuget/packages/",
-      "outputPath": "/home/manuel/sources/HR.LeaveManagement/HR.LeaveManagement.Api/obj/",
+      "projectPath": "C:\\Users\\Manuel\\sources\\Clean-CQRS-Mediatr\\HR.LeaveManagement.Api\\HR.LeaveManagement.Api.csproj",
+      "packagesPath": "C:\\Users\\Manuel\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Manuel\\sources\\Clean-CQRS-Mediatr\\HR.LeaveManagement.Api\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/manuel/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\Manuel\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
@@ -10349,14 +10349,14 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "/home/manuel/sources/HR.LeaveManagement/HR.LeaveManagement.Application/HR.LeaveManagement.Application.csproj": {
-              "projectPath": "/home/manuel/sources/HR.LeaveManagement/HR.LeaveManagement.Application/HR.LeaveManagement.Application.csproj"
+            "C:\\Users\\Manuel\\sources\\Clean-CQRS-Mediatr\\HR.LeaveManagement.Application\\HR.LeaveManagement.Application.csproj": {
+              "projectPath": "C:\\Users\\Manuel\\sources\\Clean-CQRS-Mediatr\\HR.LeaveManagement.Application\\HR.LeaveManagement.Application.csproj"
             },
-            "/home/manuel/sources/HR.LeaveManagement/HR.LeaveManagement.Infrastructure/HR.LeaveManagement.Infrastructure.csproj": {
-              "projectPath": "/home/manuel/sources/HR.LeaveManagement/HR.LeaveManagement.Infrastructure/HR.LeaveManagement.Infrastructure.csproj"
+            "C:\\Users\\Manuel\\sources\\Clean-CQRS-Mediatr\\HR.LeaveManagement.Infrastructure\\HR.LeaveManagement.Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\Manuel\\sources\\Clean-CQRS-Mediatr\\HR.LeaveManagement.Infrastructure\\HR.LeaveManagement.Infrastructure.csproj"
             },
-            "/home/manuel/sources/HR.LeaveManagement/HR.LeaveManagement.Persistence/HR.LeaveManagement.Persistence.csproj": {
-              "projectPath": "/home/manuel/sources/HR.LeaveManagement/HR.LeaveManagement.Persistence/HR.LeaveManagement.Persistence.csproj"
+            "C:\\Users\\Manuel\\sources\\Clean-CQRS-Mediatr\\HR.LeaveManagement.Persistence\\HR.LeaveManagement.Persistence.csproj": {
+              "projectPath": "C:\\Users\\Manuel\\sources\\Clean-CQRS-Mediatr\\HR.LeaveManagement.Persistence\\HR.LeaveManagement.Persistence.csproj"
             }
           }
         }
@@ -10408,7 +10408,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.102/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
       }
     }
   }
