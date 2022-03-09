@@ -7,6 +7,7 @@ using HR.LeaveManagement.Application.Features.LeaveTypes.Handlers.Commands;
 using HR.LeaveManagement.Application.Features.LeaveTypes.Requests.Commands;
 using HR.LeaveManagement.Application.Persistence.Contracts;
 using HR.LeaveManagement.Application.Profiles;
+using HR.LeaveManagement.Application.Responses;
 using HR.LeaveManagement.Application.UnitTests.Mocks;
 using Moq;
 using Shouldly;
@@ -42,7 +43,7 @@ public class CreateLeaveTypeCommandHandlerTests
     }
 
     [Fact]
-    public async Task CreateLeaveType()
+    public async Task Valid_LeaveType_Added()
     {
         var leaveTypesCountBefore = _mockRepo.Object.GetAll().Result.Count;
         
@@ -51,7 +52,7 @@ public class CreateLeaveTypeCommandHandlerTests
 
         var leaveTypesCount = _mockRepo.Object.GetAll().Result.Count;
 
-        result.ShouldBeOfType<int>();
+        result.ShouldBeOfType<BaseCommandResponse>();
         (leaveTypesCount - leaveTypesCountBefore).ShouldBe(1);
     }
 
@@ -62,9 +63,8 @@ public class CreateLeaveTypeCommandHandlerTests
 
         _leaveTypeDto.DefaultDays = -1;
 
-        ValidationException ex = await Should.ThrowAsync<ValidationException>(async () =>
-            await _handler.Handle(new CreateLeaveTypeCommand() { LeaveTypeDto = _leaveTypeDto },
-                CancellationToken.None));
+        var result = await _handler.Handle(new CreateLeaveTypeCommand() { LeaveTypeDto = _leaveTypeDto },
+            CancellationToken.None);
 
         var leaveTypes = await _mockRepo.Object.GetAll();
         leaveTypes.Count.ShouldBe(leaveTypesCountBefore);
